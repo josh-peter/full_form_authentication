@@ -1,0 +1,153 @@
+/* The CSS for the form. */
+form{
+	height: 1050px;
+	max-width: 758px;
+	overflow: hidden;
+	position: relative;
+	width: 550px;
+  border-radius: 29px;
+background: linear-gradient(145deg, #818181, #999999);
+box-shadow:  13px 13px 26px #484848,
+             -13px -13px 26px #484848;
+}
+  
+/* Styling the h1 tag. */
+  h1 {
+    font-weight: 500;
+    text-align: center;
+	  margin: 0 auto;
+	  margin-bottom: 1.25rem;
+  }
+
+/* Styling the input fields. */
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  border-radius: 15px;
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  color: #000000;
+  border-radius: 15px;
+  background: linear-gradient(145deg, #818181, #999999);
+  box-shadow:  8px 8px 16px #525252,
+             -8px -8px 16px #a8a7a7;
+}
+
+
+
+/* Styling the input fields. */
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select:focus {
+background: #8f8f8f;
+
+}
+
+/* Styling the radio buttons and checkboxes. */
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 2px 2px 0;
+}
+
+/* Styling the select box. */
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 10px;
+}
+
+button {
+  margin: 0px 70px 0 70px;
+  padding: 19px 39px 18px 39px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 20px;
+  width: 70%;
+  border: 2px solid #ffffff;
+  border-width: 1px 1px 3px;
+  border-radius: 27px;
+  background: linear-gradient(145deg, #818181, #999999);
+  box-shadow:  8px 8px 16px #525252,
+             -8px -8px 16px #cccccc;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+
+button:hover {
+  box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #BABECC;
+}
+button:active {
+  box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+span {
+  background-color: #191d1a;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 100%;
+}
+
+/* Making the form smaller when the screen is smaller. */
+@media screen and (min-width: 480px) {
+
+  form {
+    max-width: 480px;
+  }
+
+}
